@@ -1,0 +1,28 @@
+Estrutura Geral do Xadrez Projeto
+
+chess-system/
+│
+├── src/
+│   ├── board/
+│   │   ├── Board.java
+│   │   ├── Piece.java
+│   │   ├── Position.java
+│   │   └── BoardException.java
+│   │
+│   ├── chess/
+│   │   ├── ChessMatch.java
+│   │   ├── ChessPiece.java
+│   │   ├── ChessPosition.java
+│   │   ├── Color.java
+│   │   ├── exceptions/
+│   │   │   └── ChessException.java
+│   │   ├── pieces/
+│   │   │   ├── King.java
+│   │   │   ├── Queen.java
+│   │   │   ├── Rook.java
+│   │   │   ├── Bishop.java
+│   │   │   ├── Knight.java
+│   │   │   └── Pawn.java
+│   │
+│   └── application/
+│       └── Program.java
