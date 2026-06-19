@@ -1,0 +1,51 @@
+Chess System Java (POO)
+
+Projeto de sistema de xadrez desenvolvido em Java utilizando Programação Orientada a Objetos.
+
+Objetivo
+
+O objetivo deste projeto é implementar um jogo de xadrez funcional aplicando conceitos de POO, como:
+
+- Herança
+- Polimorfismo
+- Encapsulamento
+- Enumeração
+- Estrutura em camadas
+
+Arquitetura do Sistema
+
+O sistema foi dividido em duas camadas principais:
+
+Board Layer
+Responsável pela estrutura do tabuleiro:
+
+- Representação em matriz
+- Controle de posições
+- Inserção e remoção de peças
+
+### ♟️ Chess Layer
+Responsável pelas regras do jogo:
+
+- Peças do xadrez
+- Movimentos
+- Lógica da partida
+
+Conceitos de POO Aplicados
+
+Herança
+As peças herdam de uma classe base `Piece`.
+
+Polimorfismo
+Cada peça implementa seu próprio método `possibleMoves()`.
+
+Encapsulamento
+Os atributos são protegidos e acessados via métodos.
+
+Enum
+Utilizado para representar as cores das peças:
+
+```java
+public enum Color {
+    WHITE,
+    BLACK;
+}
