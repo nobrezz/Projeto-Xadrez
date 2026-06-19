@@ -1,0 +1,4 @@
+new Pawn(board, Color.WHITE)
+new Knight(board, Color.BLACK)
+new Bishop(board, Color.WHITE)
+new Queen(board, Color.BLACK)
